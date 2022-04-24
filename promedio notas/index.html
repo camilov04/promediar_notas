@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>CALCULATE AVERAGE</title>
+</head>
+<body class="content" id="body">
+    <main>
+        <form class="form">
+            
+            <input type="text" placeholder="INGRESE SU NOMBRE" id="name" name="name">
+
+            <input type="number" placeholder="NOTA 1" id="note1" name="note1" min="1.0" max="5.0">
+
+            <input type="number" placeholder="NOTA 2" id="note2" name="note2" min="1.0" max="5.0">
+
+            <input type="number" placeholder="NOTA 3" id="note3" name="note3" min="1.0" max="5.0">
+
+
+            <p id="prom"><b>TU NOTA ES</b></p>
+
+            <div class="result"><h1 id="result">RESULTADO</h1></div>
+            <input type="button" value="CALCULAR" class="button" id="calcular" name="calcular" onclick="end()">
+            <div>
+                <label for="">CAMBIA EL COLOR DE LA PAGINA</label>
+                <input class="change_color" type="color" name="background" id="background" onchange="ChangeColor(this)">
+            </div>
+        </form>
+    </main>
+    <script src="./js/proceso.js"></script>
+</body>
+</html>

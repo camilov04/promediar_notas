@@ -1,0 +1,51 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 190, 106);
+}
+main{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-direction: column;
+    border:double 10px #615f5f;
+    border-radius: 20px;
+    background-color: rgb(255, 244, 95);
+    width: 480px;
+    height: 450px;
+}
+
+input{
+    border: solid 3px #615f5f;
+    border-radius: 7px;
+    width: 150px;
+    height: 35px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.Outcome h1{
+    font-size: 7px;
+}
+
+.change_color{
+    border: dotted 3px #2bff00;
+    border-radius: 45px;
+    width: 40px;
+    height: 40px;
+}
